@@ -1,7 +1,7 @@
 # Save_FeatureMap_Derictly_Pytorch
 This is a small and easy tool. You can use this save the feature map in the different layers of you deep learning net.
 # How does it work？
-It is used of ONE channal GRAY image.
+It is used for ONE channal GRAY image.
 The principle of this code is realy simple。As we know in pytorch the image is saved as tensor。It’s size always is B,C,H,W.
 The code transfer the tensor B,C,H,W into cvMat B,H,W,C。then save as images of each channal in cvMat
 # You can use it like this
