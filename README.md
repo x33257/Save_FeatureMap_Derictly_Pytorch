@@ -11,6 +11,9 @@ The code transfer the tensor B,C,H,W into cvMat B,H,W,C。then save as images of
     
 You can add this at the any layer you want to get the feature map like the bottom picture.  
 The result will save at: rf'./feature_map_results/{name_of_layer}'  
+
 ![image](https://user-images.githubusercontent.com/54056224/199717362-0da8c09a-2e11-4d8d-94d9-48659c72993e.png)  
+
 The saved images liks this:  
+
 ![image](https://user-images.githubusercontent.com/54056224/199720796-73467463-1b24-411a-ab0c-02c2df5dbf81.png)  
